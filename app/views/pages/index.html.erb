@@ -1,1 +1,5 @@
-<h1>Markov App</h1>
+<%= form_tag do %>
+  <%= text_area_tag(:message, "", size: "auto") %>
+
+  <%= submit_tag("Generate") %>
+<% end %>
